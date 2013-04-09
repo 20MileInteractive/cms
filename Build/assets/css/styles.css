@@ -3764,3 +3764,22 @@ table {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+
+div#masthead {
+  background: #eee; }
+  div#masthead .top-bar {
+    margin-bottom: 0; }
+
+div#subnav {
+  text-align: right; }
+
+div#intro {
+  text-align: center; }
+
+div#testimonial {
+  background: #eee;
+  padding: 2rem 0; }
+  div#testimonial img#headshot {
+    margin: 0 auto;
+    text-align: center;
+    display: block; }
