@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cape Medical Supply</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+<link rel='stylesheet' href='assets/css/vendor/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+</head>
+<body>
+
+<div id="masthead">
+	<div class="row">
+
+		<div id="subnav" class="small-12 large-8 push-4 columns">
+			<p>Referrals &amp; Customer Service<span>800-339-3322</span></p>
+		</div>
+
+
+		<div class="small-12 large-4 pull-8 columns">
+			<img id="logo" src="http://placehold.it/300x75&text=logo"/>
+		</div>
+		
+	</div>
+
+	<div id="nav" class="row collapse">
+		<div class="large-12 columns">
+			<nav class="top-bar">
+			  <ul class="title-area">
+			    <!-- Title Area -->
+			    <li class="name">
+			    </li>
+			    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			  </ul>
+		
+			  <section class="top-bar-section">
+			    <!-- Left Nav Section -->
+			    <ul class="left">
+			      <li class="divider"></li>
+			      <li class="has-dropdown"><a href="#">Solutions For Healthcare Professional</a>
+			        <ul class="dropdown">
+			          <li><a href="#">Overview</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Smart Service</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Delivery/Setup</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Service/Quality/Personality</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Hospice</a></li>
+			          <li class="divider"></li>
+			        </ul>
+			      </li>
+			      <li class="divider"></li>
+			      <li class="has-dropdown"><a href="#">Solutions For Patients</a>
+			        <ul class="dropdown">
+			          <li><a href="#">TBN Sleep</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">TBN Oxygen</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">TBN Respiratory</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">TBN DME</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Vacation Services</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Online Bill Pay</a></li>
+			          <li class="divider"></li>
+
+			        </ul>
+			      </li>
+			      <li class="divider"></li>
+			      <li class="has-dropdown"><a href="#">Medicare</a>
+			        <ul class="dropdown">
+			          <li><a href="#">Overview</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Medicare Info for Health Care Professionals</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Medicare Info for Patients/Caregivers</a></li>
+			          <li class="divider"></li>
+			        </ul>
+			      </li>
+			      <li class="divider"></li>
+			      <li class="has-dropdown"><a href="#">About Us</a>
+			        <ul class="dropdown">
+			          <li><a href="#">Mission/Value/Vision</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Team Members</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">History</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Philanthropy/Foundation</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Careers</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Clients</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Blog</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Industry Resources</a></li>
+			          <li class="divider"></li>
+			        </ul>
+			      </li>
+			      <li class="divider"></li>
+			      <li class="has-dropdown"><a href="#">Locations</a>
+			        <ul class="dropdown">
+			          <li><a href="#">Overview</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Sandwich, MA</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Falmouth, MA</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Hyannis, MA</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Canton, MA</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Kittery, ME</a></li>
+			          <li class="divider"></li>
+			        </ul>
+			      </li>
+			      <li class="divider"></li>
+			      <li><a href="#">Contact Us</a>
+			      </li>
+	
+	
+			    </ul>		
+			  </section>
+			 </nav>
+		</div>
+	</div>
+</div>
+<div id="home">
+	<div id="intro" class="row collapse">
+		<img class="large-12 columns" src="http://placehold.it/1200x500&text=photo"/>
+	</div>
+	<div class="row collapse">
+		<h2 class="small-10 small-centered columns">Delivering care and customer service to New England for over 30&nbsp;years.</h2>
+	</div>
+
+	<div id="process-and-solutions" class="row">
+		<div class="large-12 columns">
+			
+			<div class="section-container tabs" data-section="tabs">
+			  <section>
+			    <p class="title" data-section-title><a class="home-tab" href="#">Process</a></p>
+			    <div class="content" data-section-content>
+			      <div>
+			      	<h4>Title for Process Section Goes Here</h4>
+			      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod.
+				      	
+			      	</p>
+			      	<p>
+			      		<a class="button" href="#">Call To Action</a>
+			      	</p>
+			      </div>
+			    </div>
+			  </section>
+			  <section>
+			    <p class="title" data-section-title><a class="home-tab" href="#">Solutions</a></p>
+			    <div class="content" data-section-content>
+			      <div>
+			      	<h4>Title for Solutions Section Goes Here</h4>
+			      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod.
+				      	
+			      	</p>
+			      	<p>
+			      		<a class="button" href="#">Call To Action</a>
+			      	</p>
+			      </div>
+			    </div>
+			  </section>
+			</div>
+			
+		</div>
+	</div>
+
+
+	<div id="testimonial">
+		
+		<div class="row">
+			<img id="headshot" class="large-2 small-4 columns centered-text" src="http://placehold.it/150x150/999/555&text=headshot"/>
+			<div class="large-10 columns">
+			<h4 class="subheader"><blockquote>&quot;A really great customer testimonial will go here that connects with the key target market.&quot;<cite>Susan Smith, Job Title</cite></blockquote></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<ul class="small-block-grid-2 large-block-grid-4 centered-text">
+				  <li><img src="http://placehold.it/150x75&text=logo"/></li>
+				  <li><img src="http://placehold.it/150x75&text=logo"/></li>
+				  <li><img src="http://placehold.it/150x75&text=logo"/></li>
+				  <li><img src="http://placehold.it/150x75&text=logo"/></li>
+		
+				</ul>
+				<p class="centered-text"><a href="#">See Full Client List &raquo;</a></p>
+			</div>
+		</div>
+		
+	</div><!-- end testimonial -->
+
+</div>	
+
+
+
+<div id="social">
+	<div class="row">
+	 <div class="large-8 columns">
+		 <h6><span>From our blog: </span> 7 Months of Silence</h6>
+		 <p><a href="#">7 months, that’s quite a long time between posts!
+				We’ve had a busy 7 months at Cape Medical Supply.</a>
+			</p>
+	 </div>
+	 <div class="large-4 columns">
+	 	<h6>Join Our Newsletter</h6>
+	 	<form class="row collapse">
+			<input class="small-8 columns" type="text">
+			<a href="#" class="small-4 columns small button">Subscribe</a>
+		</form>
+		<a class="social-icon" href="#">Facebook ></a>
+		<a class="social-icon" href="#">Twitter ></a>
+	 </div>
+	 
+	</div>
+</div>
+
+<div id="footer">
+	<div class="row">
+		<div class="large-6 columns">
+				<img src="http://placehold.it/60x60&text=JC"/><p>Joint Commission Accredited<br/>Since 1999</p>
+		</div>
+		
+		<div id="creds" class="large-6 columns">
+			<p>
+				Copyright 2013 Cape Medical Supply<br/>
+				<a href="#">Privacy</a>
+				<a href="#">Contact Us</a>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.forms.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.section.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.topbar.js'></script>
+	<script src='assets/js/script.js'></script>
+</body>
+</html>

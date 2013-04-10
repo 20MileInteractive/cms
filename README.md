@@ -1,4 +1,4 @@
-cms
-===
+project-starter-template
+========================
 
-Cape Medical Supply
+Template for web projects with Hammer and Foundation4
