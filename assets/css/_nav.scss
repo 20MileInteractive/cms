@@ -4,9 +4,55 @@ div#masthead{
 	.top-bar{
 		margin-bottom:0;
 	}
+	
+	#logo{
+		margin: 1rem  auto;
+		display: block;
+	}
+}
+
+div#subnav{
+	text-align: center;
+		background: #ddd;
+	
+	p{
+		padding: 1rem auto;
+		margin-bottom: inherit;
+	}
+	span{
+		font-weight: bold;
+		margin-left: 10px;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {	
+	
+div#masthead{
+	
+	
+	#logo{
+		margin:inherit;
+		display: inherit;
+		margin: 1rem auto;
+	}
 }
 
 div#subnav{
 	text-align: right;
+		background: none;
+		margin-top: 1rem;
+	
+	p{
+		padding: 1rem auto;
+		margin-bottom: inherit;
+	}
+	span{
+		font-weight: bold;
+		margin-left: 10px;
+		display: block;
+		font-size: 1.5rem;
+	}
+}
 }
 

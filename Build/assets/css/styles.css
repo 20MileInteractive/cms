@@ -2110,11 +2110,11 @@ form.custom {
   width: 100%;
   display: block;
   margin-bottom: 1.25em;
-  border: 1px solid #cccccc;
+  border: 0px solid #cccccc;
   border-top: none; }
   .section-container section,
   .section-container .section {
-    border-top: 1px solid #cccccc;
+    border-top: 0px solid #cccccc;
     position: relative; }
     .section-container section .title,
     .section-container .section .title {
@@ -2122,7 +2122,7 @@ form.custom {
       cursor: pointer;
       width: 100%;
       margin: 0;
-      background-color: #efefef; }
+      background-color: white; }
       .section-container section .title a,
       .section-container .section .title a {
         padding: 0.9375em;
@@ -2133,12 +2133,12 @@ form.custom {
         width: 100%; }
       .section-container section .title:hover,
       .section-container .section .title:hover {
-        background-color: #e2e2e2; }
+        background-color: #f2f2f2; }
     .section-container section .content,
     .section-container .section .content {
       display: none;
       padding: 0.9375em;
-      background-color: white; }
+      background-color: #eeeeee; }
       .section-container section .content > *:last-child,
       .section-container .section .content > *:last-child {
         margin-bottom: 0; }
@@ -2153,7 +2153,7 @@ form.custom {
       display: block; }
     .section-container section.active .title,
     .section-container .section.active .title {
-      background: #d5d5d5; }
+      background: white; }
 
 .section-container.tabs {
   border: 0;
@@ -2166,7 +2166,7 @@ form.custom {
     .section-container.tabs section .title,
     .section-container.tabs .section .title {
       width: auto;
-      border: 1px solid #cccccc;
+      border: 0px solid #cccccc;
       border-right: 0;
       border-bottom: 0;
       position: absolute;
@@ -2176,16 +2176,16 @@ form.custom {
         width: 100%; }
     .section-container.tabs section:last-child .title,
     .section-container.tabs .section:last-child .title {
-      border-right: 1px solid #cccccc; }
+      border-right: 0px solid #cccccc; }
     .section-container.tabs section .content,
     .section-container.tabs .section .content {
-      border: 1px solid #cccccc;
+      border: 0px solid #cccccc;
       position: absolute;
       z-index: 10;
       top: -1px; }
     .section-container.tabs section.active .title,
     .section-container.tabs .section.active .title {
-      background-color: white;
+      background-color: #eeeeee;
       z-index: 11;
       border-bottom: 0; }
     .section-container.tabs section.active .content,
@@ -2197,7 +2197,7 @@ form.custom {
     padding-top: 0 !important; }
 
   .section-container.vertical-nav {
-    border: 1px solid #cccccc;
+    border: 0px solid #cccccc;
     border-top: none; }
     .section-container.vertical-nav section,
     .section-container.vertical-nav .section {
@@ -2217,12 +2217,12 @@ form.custom {
         top: -1px;
         z-index: 999;
         min-width: 12.5em;
-        border: 1px solid #cccccc; }
+        border: 0px solid #cccccc; }
 
   .section-container.horizontal-nav {
     position: relative;
-    background: #efefef;
-    border: 1px solid #cccccc; }
+    background: white;
+    border: 0px solid #cccccc; }
     .section-container.horizontal-nav section,
     .section-container.horizontal-nav .section {
       padding-top: 0;
@@ -2231,7 +2231,7 @@ form.custom {
       .section-container.horizontal-nav section .title,
       .section-container.horizontal-nav .section .title {
         width: auto;
-        border: 1px solid #cccccc;
+        border: 0px solid #cccccc;
         border-left: 0;
         top: -1px;
         position: absolute;
@@ -2250,7 +2250,7 @@ form.custom {
         left: 0;
         top: -2px;
         min-width: 12.5em;
-        border: 1px solid #cccccc; } }
+        border: 0px solid #cccccc; } }
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
@@ -3765,21 +3765,156 @@ table {
   .f-dropdown.large {
     max-width: 800px; }
 
+.centered-text {
+  text-align: center; }
+
 div#masthead {
   background: #eee; }
   div#masthead .top-bar {
     margin-bottom: 0; }
+  div#masthead #logo {
+    margin: 1rem auto;
+    display: block; }
 
 div#subnav {
-  text-align: right; }
+  text-align: center;
+  background: #ddd; }
+  div#subnav p {
+    padding: 1rem auto;
+    margin-bottom: inherit; }
+  div#subnav span {
+    font-weight: bold;
+    margin-left: 10px; }
 
+@media only screen and (min-width: 768px) {
+  div#masthead #logo {
+    margin: inherit;
+    display: inherit;
+    margin: 1rem auto; }
+
+  div#subnav {
+    text-align: right;
+    background: none;
+    margin-top: 1rem; }
+    div#subnav p {
+      padding: 1rem auto;
+      margin-bottom: inherit; }
+    div#subnav span {
+      font-weight: bold;
+      margin-left: 10px;
+      display: block;
+      font-size: 1.5rem; } }
 div#intro {
+  text-align: center; }
+
+div#home h2 {
+  padding: 1rem 0 2rem;
   text-align: center; }
 
 div#testimonial {
   background: #eee;
-  padding: 2rem 0; }
+  padding: 3rem 0 1rem; }
   div#testimonial img#headshot {
     margin: 0 auto;
     text-align: center;
     display: block; }
+  div#testimonial h5 {
+    color: #999;
+    font-weight: normal;
+    text-transform: uppercase; }
+  div#testimonial ul {
+    margin: 2.5rem auto 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ccc; }
+
+#home .section-container section p.title {
+  display: block;
+  width: 50%;
+  text-align: center; }
+#home .section-container section a {
+  color: #999;
+  font-size: 1rem; }
+#home .section-container section a.button {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #2ba6cb;
+  border-color: #2284a1;
+  color: white; }
+  #home .section-container section a.button:hover, #home .section-container section a.button:focus {
+    background-color: #2284a1; }
+  #home .section-container section a.button:hover, #home .section-container section a.button:focus {
+    color: white; }
+#home .section-container section a:hover {
+  background: #fff; }
+#home .section-container section.active a {
+  color: #111;
+  font-weight: bold;
+  background: #eee; }
+#home .section-container section.active a.button {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #2ba6cb;
+  border-color: #2284a1;
+  color: white; }
+  #home .section-container section.active a.button:hover, #home .section-container section.active a.button:focus {
+    background-color: #2284a1; }
+  #home .section-container section.active a.button:hover, #home .section-container section.active a.button:focus {
+    color: white; }
+
+div#social {
+  background: #aaa;
+  padding: 3rem 0; }
+  div#social span {
+    font-weight: normal;
+    color: #555; }
+  div#social a {
+    color: #eee;
+    text-decoration: underline; }
+  div#social a.social-icon {
+    margin: 1rem 1rem 1rem 0; }
+
+div#footer {
+  background: #444;
+  color: #eee;
+  padding: 3rem 0; }
+  div#footer img {
+    float: left;
+    margin-right: 1rem; }
+  div#footer a {
+    margin: 0 15px 0 0; }
+  div#footer #creds {
+    margin-top: 1rem; }
+
+@media only screen and (min-width: 768px) {
+  div#footer a {
+    margin: 0 0 0 15px; }
+  div#footer #creds {
+    text-align: right; } }

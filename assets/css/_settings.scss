@@ -775,17 +775,17 @@
 
 // These style the titles
 // $section-title-color: #333;
-// $section-title-bg: #efefef;
-// $section-title-bg-active: darken($section-title-bg, $section-function-factor);
-// $section-title-bg-active-tabs: #fff;
+$section-title-bg: #fff;
+$section-title-bg-active: #fff;
+$section-title-bg-active-tabs: #eee;
 
 // Want to control border size, here ya go!
-// $section-border-size: 1px;
+$section-border-size: 0px;
 // $section-border-style: solid;
 // $section-border-color: #ccc;
 
 // Control the color of the background and some size options
-// $section-content-bg: #fff;
+$section-content-bg: #eee;
 // $section-vertical-nav-min-width: emCalc(200px);
 // $section-bottom-margin: emCalc(20px);
 
