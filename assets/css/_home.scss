@@ -1,0 +1,130 @@
+div#intro{
+	text-align: center;
+}
+
+div#home{
+		h2{
+		padding: 1rem 0 2rem;
+		text-align: center;
+	}
+}
+
+div#testimonial{
+	background: #eee;
+	padding: 3rem 0 1rem;
+	
+	img#headshot{
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+	}
+	
+	h5{
+		color: #999;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+	
+	ul{
+		margin: 2.5rem auto 2.5rem;
+		padding-top: 2rem;
+		border-top: 1px solid #ccc;
+	}
+	
+}
+
+#home .section-container{
+
+	section{
+
+	 	p.title{
+	
+			display: block;
+			width:50%;
+			text-align: center;
+		}
+	
+		a{
+			color: #999;
+			font-size: 1rem;
+		}
+		
+		a.button{
+			@include button;
+		}
+	
+		a:hover{
+			background: #fff;
+		}
+	}
+	
+	section.active{
+		
+		a{
+			color: #111;
+			font-weight: bold;
+			background: #eee;
+		}
+
+		a.button{
+			@include button;
+		}
+		
+		
+	}
+	
+}
+
+
+div#social{
+	background: #aaa;
+	padding: 3rem 0;
+	
+	span{
+		font-weight: normal;
+		color: #555;
+	}
+	
+	a{
+		color: #eee;
+		text-decoration: underline;
+	}
+	
+	a.social-icon{
+		margin: 1rem 1rem 1rem 0;
+	}
+	
+}
+
+
+div#footer{
+	background: #444;
+	color: #eee;
+	padding: 3rem 0;
+	
+	img{
+		float: left;
+		margin-right: 1rem;
+	}
+	
+	a{
+		margin: 0 15px 0 0;
+	}
+	
+	#creds{
+		margin-top: 1rem;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {	
+	
+	div#footer{
+		a{
+			margin: 0 0 0 15px;
+		}
+		#creds{
+			text-align: right;
+		}
+	}
+}
