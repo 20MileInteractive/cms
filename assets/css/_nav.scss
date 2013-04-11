@@ -3,6 +3,11 @@ div#masthead{
 	
 	.top-bar{
 		margin-bottom:0;
+	
+		li a{
+			font-size: 13px;
+			font-weight: normal;
+		}
 	}
 	
 	#logo{
@@ -40,7 +45,7 @@ div#masthead{
 
 div#subnav{
 	text-align: right;
-		background: none;
+		background: #eee;
 		margin-top: 1rem;
 	
 	p{
