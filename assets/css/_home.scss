@@ -19,14 +19,18 @@ div#testimonial{
 		display: block;
 	}
 	
+	img.client-logo{
+		margin: 1rem;
+	}
+	
 	h5{
 		color: #999;
 		font-weight: normal;
 		text-transform: uppercase;
 	}
 	
-	ul{
-		margin: 2.5rem auto 2.5rem;
+	#logos{
+		margin: 1.5rem auto;
 		padding-top: 2rem;
 		border-top: 1px solid #ccc;
 	}
@@ -74,6 +78,8 @@ div#testimonial{
 	}
 	
 }
+
+
 
 
 div#social{

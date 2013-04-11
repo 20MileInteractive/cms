@@ -3797,7 +3797,7 @@ div#subnav {
 
   div#subnav {
     text-align: right;
-    background: none;
+    background: #eee;
     margin-top: 1rem; }
     div#subnav p {
       padding: 1rem auto;
@@ -3821,12 +3821,14 @@ div#testimonial {
     margin: 0 auto;
     text-align: center;
     display: block; }
+  div#testimonial img.client-logo {
+    margin: 1rem; }
   div#testimonial h5 {
     color: #999;
     font-weight: normal;
     text-transform: uppercase; }
-  div#testimonial ul {
-    margin: 2.5rem auto 2.5rem;
+  div#testimonial #logos {
+    margin: 1.5rem auto;
     padding-top: 2rem;
     border-top: 1px solid #ccc; }
 
