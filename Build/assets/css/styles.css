@@ -3772,6 +3772,9 @@ div#masthead {
   background: #eee; }
   div#masthead .top-bar {
     margin-bottom: 0; }
+    div#masthead .top-bar li a {
+      font-size: 13px;
+      font-weight: normal; }
   div#masthead #logo {
     margin: 1rem auto;
     display: block; }
