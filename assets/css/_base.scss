@@ -1,5 +1,26 @@
 // Base style sheet
 
+
+.template-header{
+	background: red;
+	margin: 0;
+	padding: 0;
+	
+	h5{
+	color: #fff;
+	text-transform: uppercase;
+		span{
+				font-weight: normal;
+		}
+	
+	}
+	
+}
+
 .centered-text{
 	text-align: center;
+}
+
+div.template{
+	margin: 1.5rem auto;
 }
