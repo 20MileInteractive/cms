@@ -3765,8 +3765,21 @@ table {
   .f-dropdown.large {
     max-width: 800px; }
 
+.template-header {
+  background: red;
+  margin: 0;
+  padding: 0; }
+  .template-header h5 {
+    color: #fff;
+    text-transform: uppercase; }
+    .template-header h5 span {
+      font-weight: normal; }
+
 .centered-text {
   text-align: center; }
+
+div.template {
+  margin: 1.5rem auto; }
 
 div#masthead {
   background: #eee; }
@@ -3807,6 +3820,32 @@ div#subnav {
       margin-left: 10px;
       display: block;
       font-size: 1.5rem; } }
+nav.top-bar#templates {
+  background: red;
+  font-size: 11px; }
+  nav.top-bar#templates .title-area {
+    background: red; }
+  nav.top-bar#templates li a {
+    background: red;
+    font-size: 11px; }
+  nav.top-bar#templates li a:hover {
+    cursor: hand; }
+  nav.top-bar#templates li a.current {
+    background: #cc0000; }
+
+div.blog article span {
+  color: #666;
+  font-size: .9rem;
+  margin-bottom: 1rem;
+  display: block; }
+
+div.row.blog {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem; }
+
+.sidebar p {
+  color: #999; }
+
 div#intro {
   text-align: center; }
 
