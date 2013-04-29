@@ -1,5 +1,6 @@
 div#masthead{
-	background: #eee;
+	background: #eee url(../img/subtle_dots.png);
+	font-family: $header-font-family;
 	
 	.top-bar{
 		margin-bottom:0;
@@ -7,7 +8,9 @@ div#masthead{
 		li a{
 			font-size: 13px;
 			font-weight: normal;
+			
 		}
+
 	}
 	
 	#logo{
@@ -16,9 +19,14 @@ div#masthead{
 	}
 }
 
+// .top-bar-section li a:not(.button) {
+// 	padding: 0 11px;
+// }
+
 div#subnav{
 	text-align: center;
-		background: #ddd;
+	background: #f1f1f1;
+	padding: .25rem;
 	
 	p{
 		padding: 1rem auto;
@@ -26,7 +34,6 @@ div#subnav{
 	}
 	span{
 		font-weight: bold;
-		margin-left: 10px;
 	}
 }
 
@@ -45,8 +52,9 @@ div#masthead{
 
 div#subnav{
 	text-align: right;
-		background: #eee;
 		margin-top: 1rem;
+		background: inherit;
+		padding: 0 1rem;
 	
 	p{
 		padding: 1rem auto;
@@ -54,9 +62,8 @@ div#subnav{
 	}
 	span{
 		font-weight: bold;
-		margin-left: 10px;
-		display: block;
-		font-size: 1.5rem;
+		// display: block;
+		// font-size: 1.5rem;
 	}
 }
 }

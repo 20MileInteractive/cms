@@ -1,5 +1,19 @@
 // Base style sheet
 
+#masthead {
+	box-shadow: 0px 0px 4px #333;
+	}
+
+#home {
+/* Rectangle 1: */
+
+background-image: -o-linear-gradient(-69deg, #F5F5F5 0%, #DEECFA 100%);
+background-image: -moz-linear-gradient(-69deg, #F5F5F5 0%, #DEECFA 100%);
+background-image: -webkit-linear-gradient(-69deg, #F5F5F5 0%, #DEECFA 100%);
+background-image: -ms-linear-gradient(-69deg, #F5F5F5 0%, #DEECFA 100%);
+background-image: linear-gradient(-159deg, #F5F5F5 0%, #DEECFA 100%);
+
+}
 
 .template-header{
 	background: red;

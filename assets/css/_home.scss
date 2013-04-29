@@ -1,16 +1,18 @@
 div#intro{
 	text-align: center;
+
 }
 
 div#home{
 		h2{
 		padding: 1rem 0 2rem;
 		text-align: center;
+		color: #D62828;
 	}
 }
 
 div#testimonial{
-	background: #eee;
+	background: #B5D1E8;
 	padding: 3rem 0 1rem;
 	
 	img#headshot{
@@ -41,16 +43,23 @@ div#testimonial{
 
 	section{
 
+
+
 	 	p.title{
 	
 			display: block;
 			width:50%;
 			text-align: center;
+			background: #ccc;
+			-moz-border-radius: 5px 5px 0 0;
+			-webkit-border-radius: 5px 5px 0 0;
+			border-radius: 5px 5px 0 0;
 		}
 	
 		a{
-			color: #999;
+			color: $primary-color;
 			font-size: 1rem;
+			font-family: $header-font-family;
 		}
 		
 		a.button{
@@ -58,8 +67,14 @@ div#testimonial{
 		}
 	
 		a:hover{
-			background: #fff;
+			background: darken(#ccc, 15%);
+			color: #fff;
+			-moz-border-radius: 5px 5px 0 0;
+			-webkit-border-radius: 5px 5px 0 0;
+			border-radius: 5px 5px 0 0;
 		}
+
+		.content {background: #fff;}
 	}
 	
 	section.active{
@@ -67,11 +82,19 @@ div#testimonial{
 		a{
 			color: #111;
 			font-weight: bold;
-			background: #eee;
+			background: #eee url(../img/subtle_dots.png);
+			-moz-border-radius: 5px 5px 0 0;
+			-webkit-border-radius: 5px 5px 0 0;
+			border-radius: 5px 5px 0 0;
 		}
 
 		a.button{
 			@include button;
+		}
+
+		.content {
+
+			background: #eee url(../img/subtle_dots.png);
 		}
 		
 		
