@@ -1,17 +1,29 @@
 // Base style sheet
 
-#masthead {
-	box-shadow: 0px 0px 4px #333;
-	}
+
+//Primary colors
+$custom-color-one: #0054A4; //reflex blue
+
+
+//Secondary colors
+$custom-color-five: #B5D5F0; //PMS 277
+$custom-color-six: #5091CD; //PMS 279
+
+//Tertiary colors
+$custom-color-eight: #221F72; //PMS 274
+$custom-color-nine: #7D4199; //PMS 2593
+$custom-color-twelve: #00A0AF; //PMS 320
+$custom-color-fifteen: #EE3524; //PMS 1795
+
 
 #home {
 /* Rectangle 1: */
 
-background-image: -o-linear-gradient(-69deg, #F5F5F5 0%, #DEECFA 100%);
-background-image: -moz-linear-gradient(-69deg, #F5F5F5 0%, #DEECFA 100%);
-background-image: -webkit-linear-gradient(-69deg, #F5F5F5 0%, #DEECFA 100%);
-background-image: -ms-linear-gradient(-69deg, #F5F5F5 0%, #DEECFA 100%);
-background-image: linear-gradient(-159deg, #F5F5F5 0%, #DEECFA 100%);
+background-image: -o-linear-gradient(-69deg, #F5F5F5 0%, $custom-color-five 100%);
+background-image: -moz-linear-gradient(-69deg, #F5F5F5 0%, $custom-color-five 100%);
+background-image: -webkit-linear-gradient(-69deg, #F5F5F5 0%, $custom-color-five 100%);
+background-image: -ms-linear-gradient(-69deg, #F5F5F5 0%, $custom-color-five 100%);
+background-image: linear-gradient(-159deg, #F5F5F5 0%, $custom-color-five 100%);
 
 }
 
@@ -37,4 +49,53 @@ background-image: linear-gradient(-159deg, #F5F5F5 0%, #DEECFA 100%);
 
 div.template{
 	margin: 1.5rem auto;
+}
+
+a.button {
+	font-family: $header-font-family;
+}
+
+.facebook, .twitter {
+	display: inline-block;
+	width: 32px; height: 32px;
+	background: $primary-color;
+}
+
+.facebook:hover, .twitter:hover {
+	background: darken($primary-color, 10%);
+	}
+
+
+div#footer{
+	background: #444;
+	color: #757575;
+	padding: 3rem 0;
+	font-family: $header-font-family;
+	font-weight: normal;
+	
+	img{
+		float: left;
+		margin-right: 1rem;
+	}
+	
+	a{
+		margin: 0 15px 0 0;
+	}
+	
+	#creds{
+		margin-top: 1rem;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {	
+	
+	div#footer{
+		a{
+			margin: 0 0 0 15px;
+		}
+		#creds{
+			text-align: right;
+		}
+	}
 }

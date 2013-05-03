@@ -1,12 +1,22 @@
 div#masthead{
-	background: #eee url(../img/subtle_dots.png);
+	// background: #eee url(../img/subtle_dots.png);
+	background: #fff;
+	background-image: -o-linear-gradient(-82deg, #FFFFFF 22%, #F2F2F2 100%);
+	background-image: -moz-linear-gradient(-82deg, #FFFFFF 22%, #F2F2F2 100%);
+	background-image: -webkit-linear-gradient(-82deg, #FFFFFF 22%, #F2F2F2 100%);
+	background-image: -ms-linear-gradient(-82deg, #FFFFFF 22%, #F2F2F2 100%);
+	background-image: linear-gradient(-172deg, #FFFFFF 22%, #F2F2F2 100%);
 	font-family: $header-font-family;
-	
+	box-shadow: 0px 0px 6px #9C9C9C;
+	overflow: visible;
+	position: relative;
+	z-index: 100;
+
 	.top-bar{
 		margin-bottom:0;
 	
 		li a{
-			font-size: 13px;
+			font-size: 14px;
 			font-weight: normal;
 			
 		}

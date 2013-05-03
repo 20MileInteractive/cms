@@ -5,7 +5,6 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{}line{font-family:\0000324}}
 article,
 aside,
 details,
@@ -23,7 +22,6 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{}line{font-family:\0000334}}
 audio,
 canvas,
 video {
@@ -33,7 +31,6 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{}line{font-family:\0000343}}
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -41,7 +38,6 @@ audio:not([controls]) {
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{}line{font-family:\0000352}}
 [hidden] {
   display: none; }
 
@@ -53,7 +49,6 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@media -sass-debug-info{filename{}line{font-family:\0000366}}
 html {
   font-family: sans-serif;
   /* 1 */
@@ -65,7 +60,6 @@ html {
 /**
  * Remove default margin.
  */
-@media -sass-debug-info{filename{}line{font-family:\0000376}}
 body {
   margin: 0; }
 
@@ -75,14 +69,12 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-@media -sass-debug-info{filename{}line{font-family:\0000388}}
 a:focus {
   outline: thin dotted; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{}line{font-family:\0000397}}
 a:active,
 a:hover {
   outline: 0; }
@@ -94,7 +86,6 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003110}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -102,14 +93,12 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003119}}
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003128}}
 b,
 strong {
   font-weight: bold; }
@@ -117,14 +106,12 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003136}}
 dfn {
   font-style: italic; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003144}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -133,7 +120,6 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003154}}
 mark {
   background: #ff0;
   color: #000; }
@@ -141,7 +127,6 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003166}}
 code,
 kbd,
 pre,
@@ -152,28 +137,24 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003175}}
 pre {
   white-space: pre-wrap; }
 
 /**
  * Set consistent quote types.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003183}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003191}}
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003200}}
 sub,
 sup {
   font-size: 75%;
@@ -181,11 +162,9 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{}line{font-family:\00003207}}
 sup {
   top: -0.5em; }
 
-@media -sass-debug-info{filename{}line{font-family:\00003211}}
 sub {
   bottom: -0.25em; }
 
@@ -195,14 +174,12 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003223}}
 img {
   border: 0; }
 
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003231}}
 svg:not(:root) {
   overflow: hidden; }
 
@@ -212,7 +189,6 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003243}}
 figure {
   margin: 0; }
 
@@ -222,7 +198,6 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003255}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -232,7 +207,6 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003266}}
 legend {
   border: 0;
   /* 1 */
@@ -244,7 +218,6 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003280}}
 button,
 input,
 select,
@@ -260,7 +233,6 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003292}}
 button,
 input {
   line-height: normal; }
@@ -271,7 +243,6 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003304}}
 button,
 select {
   text-transform: none; }
@@ -283,7 +254,6 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003319}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -296,7 +266,6 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003329}}
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -305,7 +274,6 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003339}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -318,7 +286,6 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{}line{font-family:\00003350}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -331,7 +298,6 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003363}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -339,7 +305,6 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003372}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -349,7 +314,6 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003382}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -362,7 +326,6 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{}line{font-family:\00003395}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
