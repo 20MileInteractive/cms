@@ -1,14 +1,16 @@
 nav.top-bar#templates{
-	background: red;
+	background: #333;
 	font-size: 11px;
+	margin-bottom: 0;
 	
 	.title-area{
-		background: red;
+		background: #333;
 	}
 	
 	li a{
-		background: red;
+		background: #333;
 		font-size: 11px;
+		color: #fff;
 	}
 	
 	li a:hover{
@@ -16,7 +18,7 @@ nav.top-bar#templates{
 	}
 	
 	li a.current{
-		background: darken(red,10%);
+		background: darken(#333,10%);
 	}
 }
 
