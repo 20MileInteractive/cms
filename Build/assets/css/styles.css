@@ -3784,7 +3784,7 @@ table {
     list-style-type: none;
     background: url(../img/bullet.png) no-repeat;
     margin-bottom: 1em;
-    line-height: 1em;
+    line-height: 1.3em;
     font-family: "Univers LT W10 45 Light", "Univers LT STD", "Comic Sans MS", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
 .panel {
