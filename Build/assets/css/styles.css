@@ -3773,6 +3773,30 @@ table {
   background-image: -ms-linear-gradient(-69deg, whitesmoke 0%, #b5d5f0 100%);
   background-image: linear, -159deg, whitesmoke 0%, #b5d5f0 100%; }
 
+.panel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left; }
+  .panel ul li {
+    padding-left: 1.5em;
+    position: relative;
+    list-style-type: none;
+    background: url(../img/bullet.png) no-repeat;
+    margin-bottom: 1em;
+    line-height: 1em;
+    font-family: "Univers LT W10 45 Light", "Univers LT STD", "Comic Sans MS", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+.panel {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.template {
+  background: url(../img/orb-gray.png) no-repeat 120% 0; }
+
 .template-header {
   background: red;
   margin: 0;
@@ -3907,6 +3931,10 @@ div#home #home-inner {
 
 #process-and-solutions {
   padding-bottom: 2rem; }
+
+.intro-text p {
+  font-size: 1.2em;
+  font-family: "Univers LT W10 45 Light", "Univers LT STD", "Comic Sans MS", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
 .section-container section .content, .section-container .section .content {
   padding: 1.6em; }
