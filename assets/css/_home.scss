@@ -5,21 +5,9 @@ div#intro{
 
 div#home{
 		h2{
-		padding: .35em .25em .25em .25em;
-		text-align: center;
-		font-size: 1em;
-		width: 18em;
-		color: #fff;
-		background: $custom-color-one;
-		text-transform: uppercase;
-		-moz-border-radius: 24px;
-		-webkit-border-radius: 24px;
-		border-radius: 24px;
-		letter-spacing: 2px;
 		margin-top: -66px;
 		margin-left: -23px;
-		margin-bottom: 5em;
-		box-shadow: 0 0 4px #777;
+		margin-bottom: 2em;
 
 		}
 
@@ -34,7 +22,7 @@ div#home{
 #home .section-container{
 
 	section{
-
+		font-family: $header-font-family;
 
 	 	p.title{
 	
@@ -75,7 +63,7 @@ div#home{
 		
 		a.button{
 			@include button;
-			font-family: $header-font-family;
+			
 			font-weight: normal;
 			background: $primary-color;
 			border-color: darken($primary-color, 10%);
@@ -130,6 +118,11 @@ div#home{
 	-moz-border-radius: 7px 7px 0 0;
 	-webkit-border-radius: 7px 7px 0 0;
 	border-radius: 7px 7px 0 0;
+}
+
+section#the-process .content p {
+	font-size: 1.4em;
+	line-height: 1.5em;
 }
 
 div#testimonial{
