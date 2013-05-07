@@ -20,6 +20,10 @@ div#masthead{
 			font-weight: normal;
 			
 		}
+		
+		li.divider:last-child {
+			display: none;
+		}
 
 	}
 	

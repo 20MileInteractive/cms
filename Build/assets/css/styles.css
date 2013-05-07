@@ -3861,6 +3861,8 @@ div#masthead {
     div#masthead .top-bar li a {
       font-size: 14px;
       font-weight: normal; }
+    div#masthead .top-bar li.divider:last-child {
+      display: none; }
   div#masthead #logo {
     margin: 1rem auto;
     display: block; }
