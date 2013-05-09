@@ -3839,11 +3839,37 @@ div#footer {
   div#footer #creds {
     margin-top: 1rem; }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 16px; }
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#primary_content ul {
+  padding-left: 20px; }
+
+.post_tags a {
+  padding-right: 10px; }
+
 @media only screen and (min-width: 768px) {
   div#footer a {
     margin: 0 0 0 15px; }
   div#footer #creds {
     text-align: right; } }
+@media print {
+  div:not(.reveal-modal) {
+    display: inherit !important; } }
 div#masthead {
   background: #fff;
   background-image: -o-linear-gradient(-82deg, white 22%, #f2f2f2 100%);
