@@ -11,7 +11,41 @@ div#home{
 
 		}
 
-		#home-inner {background: url(../img/orbs-bg.png) no-repeat 120% 0;}
+		#home-inner { 
+			background: url(../img/orbs-bg.png) no-repeat 120% 0;
+
+			// home page slide show (orbit)
+			.orbit-container {
+
+				.orbit-prev, .orbit-next, .orbit-slide-number {
+					display: none;
+				}
+			}
+
+			.orbit-bullets {
+				margin-top: -40px;
+				margin-bottom: 50px;
+				margin-left: 60px;
+
+				li {
+					display: block;
+					width: 12px;
+					height: 12px;
+					background: #fff;
+					float: left;
+					margin-right: 6px;
+					border: 0px;
+
+					@include prefixer(box-shadow, inset -1px 1px 2px #000000, webkit moz spec);
+
+					@include radius(1000px);
+
+					&.active {
+					  background: #ff7b00;
+					}
+				}
+			}
+		}
 }
 
 #process-and-solutions {padding-bottom: 2rem;}
@@ -211,7 +245,8 @@ div#social{
 	input {
 		font-family: $header-font-family;
 	}
-	
 }
+
+
 
 
